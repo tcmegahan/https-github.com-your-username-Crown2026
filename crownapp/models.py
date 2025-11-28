@@ -7,6 +7,11 @@ class School(models.Model):
     state = models.CharField(max_length=50, blank=True)
     created = models.DateTimeField(auto_now_add=True)
     
+    class Meta:
+        verbose_name = 'School'
+        verbose_name_plural = 'Schools'
+        ordering = ['name']
+    
     def __str__(self):
         return self.name
 
@@ -16,6 +21,11 @@ class Family(models.Model):
     email = models.EmailField(unique=True)
     phone = models.CharField(max_length=20, blank=True)
     created = models.DateTimeField(auto_now_add=True)
+    
+    class Meta:
+        verbose_name = 'Family'
+        verbose_name_plural = 'Families'
+        ordering = ['last_name']
     
     def __str__(self):
         return f"{self.last_name} Family"
