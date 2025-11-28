@@ -45,8 +45,8 @@ See [docs/IMMEDIATE_NEXT_STEPS.md](docs/IMMEDIATE_NEXT_STEPS.md) for detailed se
 
 1. Clone the repository:
 ```powershell
-git clone https://github.com/tcmegahan/https-github.com-your-username-Crown2026.git
-cd Crown2026
+git clone https://github.com/tcmegahan/CrownConnect.git
+cd CrownConnect
 ```
 
 2. Set up virtual environment:
